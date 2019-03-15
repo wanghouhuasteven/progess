@@ -18,9 +18,9 @@ int main(int argv, char* argc[])
     			cout << "<INFO> This program is a test one.\n       "
     			"Here are some other avaliable arguments.\n       "
     			"    c CLOSE THIS PROGRAM(RETURN VALUE: the next param;\n"
-				"    if ther is no, return 802),\n"
-    			"    h HELP,\n"
-    			"    e SHOW HOW MANY ARGUMENTS HAVE BEEN ENTERED.\n";
+				"           if ther is no, return 802),\n"
+    			"           h HELP,\n"
+    			"           e SHOW HOW MANY ARGUMENTS HAVE BEEN ENTERED.\n";
     		    break;
     		case('c'):
     			try{
