@@ -24,8 +24,8 @@ int main(int argv, char* argc[])
     		    break;
     		case('c'):
     			try{
-    				int *v = (int *) argc[i + 1];
-    				return *v;
+    				int v = (int) argc[i + 1];
+    				return v;
 				}catch(...){
 					return 802;
 				}
