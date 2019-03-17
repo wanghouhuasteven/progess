@@ -26,14 +26,14 @@ int main(int argv, char* argc[])
     			try{
     				int *v = (int *) argc[i + 1];
     				return *v;
-				}catch(...){
-					return 802;
-				}
-			case('e'):
-				cout << "<INFO> " << argv - 1 <<
-				" arguments have been entered(except the run-program command)."
-				<< endl;
-				break;
+			}catch(...){
+				return 802;
+			}
+		case('e'):
+			cout << "<INFO> " << argv - 1 <<
+			" arguments have been entered(except the run-program command)."
+			<< endl;
+			break;
 		}
 	}
 	return 0;
